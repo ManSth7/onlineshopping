@@ -1,0 +1,337 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+body{background:skyblue; }
+
+
+
+
+
+
+.main_wrapper{
+width:1000px;
+height:auto;
+margin:auto;
+}
+
+hh {
+
+	font-size: 20px;
+	font-family: times new roman;
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	
+	vertical-align: top;
+}
+
+h{
+
+	font-size: 14px;
+	font-family: times new roman;
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	
+	vertical-align: top;
+}
+
+p{
+
+	font-size: 20px;
+	font-family: algerian;
+	color: black;
+	text-decoration: underline;
+}
+
+#new_product{
+
+	width: 400px;
+	height: 400px;
+	float: left;
+
+
+}
+
+#contact{
+
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+
+.header_wrapper{
+width:1000px;
+height:100px;
+margin:auto;
+
+}
+
+#logo{float:left;}
+
+#banner{float:right;}
+
+.menubar{
+	width:1000px;
+	height:50px;
+	background:#4169E1;
+	color:white;
+}
+
+
+.menu{
+	padding:0;
+	margin:0;
+	line-height:40px;
+
+}
+
+#menu li{
+	list-style:none;
+	display:inline;
+	float:left;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#option {
+	list-style:none;
+	color: red;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: algerian;
+
+}
+
+#menu a{
+	text-decoration:none;
+	color: #FFD700;
+	padding: 8px;
+	margin:5px
+	font-size:18px;
+	font-family: comic sans ms;
+}
+
+#menu a:hover{
+	color:red;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+#form{
+	float:right;
+	padding: 14px;
+
+}
+
+#styled-button{
+	float: right;
+	padding:5px;
+	font-size: 16px;
+}
+
+#styled-button a{
+
+	color:#FFDEAD;
+}
+
+#styled-button a:hover{
+	color:blue;
+	font-weight: bolder;
+}
+
+.content_wrapper{
+	width:1000px;
+	height:900px;
+	margin:auto;
+	
+
+}
+
+#content3{
+	background-color: #ff7f7f;
+	width: 1000;
+	height: 900px;
+}
+
+
+#content_area{
+	width:800px;
+	float:right;
+	
+}
+
+#content2{
+
+	float:right;
+	width:1000px;
+	height:50px;
+	background:Black;
+}
+
+#content
+{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 12px;
+	float: right;
+	top:20px;
+	right:100px;
+	color:#052306;
+}
+
+
+#content a
+{
+	padding: 6px;
+	color:#EF0904;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content a:hover
+{
+	color:#FFD74D;
+	font-weight: bold;
+}
+
+
+#sidebar{
+	width:200px;
+	background:	#4169E1;
+	float:left;
+	height: 950px;
+}
+
+
+#sidebar_title{
+	text-align: center;
+	background:#FFD700;
+	color:black;
+	font-size: 18px;
+	font-family: Papyrus;
+	padding:8px;
+	font-weight: bold;
+}
+
+
+#cats{
+	text-align: center;
+
+}
+
+
+#cats li{
+	list-style: none;
+}
+
+#cats a {
+	color: #FFD700;
+	padding:8px; 
+	margin:5px;
+	text-align: center;
+	font-size: 16px;
+	font-family: comic sans ms;
+	text-decoration: none;
+}
+
+#cats a:hover{
+	color:red;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+
+#products_box{
+	width:850px;
+	text-align: center;
+	color: black;
+
+
+}
+
+#single_product{
+	float: left;
+	margin-left: 30px;
+	padding: 10px;
+	font-family: Papyrus;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+#single_product img {border:2px solid black;  }
+
+
+
+#shopping_cart{width:800px; height: 50px; background: black; color: white;} 
+
+#footer{
+		width:1000px;
+	height:50px;
+	background:gray;
+	clear:both;
+
+}
+
+
+
+.styled-button-1 {
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.2) 0 1px 0 0;
+	color:#333;
+	background-color:#FA2;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1;
+	border-color: red;
+	font-family:'Helvetica Neue',Arial,sans-serif;
+	font-size:16px;
+	font-weight:700;
+	height:40px;
+	padding:4px 12px;
+	text-shadow:#FE6 0 1px 0
+
+
+
+
+}
+
+
+
+
+
+
+
+/* css for home page */
